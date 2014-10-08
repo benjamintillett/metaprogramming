@@ -24,3 +24,14 @@ class Student
 
 end
 
+class Ben
+
+    self.send(:define_method, "name?=") do |value|
+    	@name = value
+    end
+
+	def name
+		@name
+	end 
+
+end 
