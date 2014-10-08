@@ -44,6 +44,11 @@ class Person
     end
   end
 
-  attribute_reader :height
-  attribute_writer :height
+  def self.attribute_accessor(attribute)
+    attribute_reader attribute
+    attribute_writer attribute  
+  end
+  
+  attribute_accessor :height
+
 end
