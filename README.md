@@ -4,8 +4,6 @@ Metaprogramming in Ruby
 
 Looking at what can be done with metaprogrammimg in ruby.
 
-We used metaprogrammimg to create methods on the fly.
-
 Part 1 
 
 We created a student class that has an array of awards. We used method missing to create a student methods has_*? method. That will take any method that starts with has_  and ends with ? and return whether or not the students award array contains the given string.
@@ -36,8 +34,6 @@ Run the tests:
 $ cd metaprogramming
 $ rspec
 ```
-
-Require the files:
 
 Load irb:
 
